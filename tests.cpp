@@ -5,8 +5,8 @@
 #define CATCH_CONFIG_MAIN // defines main() automatically
 #include "catch.hpp"
 
-#include "ex01.hpp"
-#include "ex02.hpp"
+#include "ex01.cpp"
+#include "ex02.cpp"
 
 TEST_CASE("Ex01", "[exercise]") {
     int y = 0;
